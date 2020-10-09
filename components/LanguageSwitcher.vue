@@ -3,7 +3,8 @@
     v-model="drawer"
     bottom
     offset-y
-    max-width="250"
+    min-width="100%"
+    max-height="100%"
   >
     <template #activator="{ on }">
       <v-btn
